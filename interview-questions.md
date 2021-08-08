@@ -12,8 +12,7 @@ Then, research the question to expand on your answer. Even if you feel you have 
   the view and the model so that the data gets displayed in the view, or the view sends data
   back to the database.
 
-  Researched answer:
-
+  Researched answer: MVC (model-view-controller) describes how the data flows in the app from the user to the backend and separates how the tasks and logic are handled. The model holds the data and logic, while the controller retrieves the data from the model and handles requests from the client. The view is responsible for the UI and presentation.
 
 
 2. What is a relational database? Are there other kinds of databases?
@@ -23,8 +22,7 @@ Then, research the question to expand on your answer. Even if you feel you have 
   each student has an ID for their current teacher. There are also non-relational databases
   like NoSQL that does not use relations to connect data.
 
-  Researched answer:
-
+  Researched answer: A relational database uses tables which can be related to one another, with a primary key to uniquely identify each row. The layout of all the tables, column names and their data types together is called the schema. There are non-relational databases like MongoDB which uses NoSQL. There are document data stores, key-value stores which are collections of pairs in an object, graphs, and column-oriented stores.
 
 
 3. What is object-relational mapping?
@@ -32,16 +30,15 @@ Then, research the question to expand on your answer. Even if you feel you have 
   Your answer: I think object-relational mapping or ORM is a way to map objects with relational
   databases.
 
-  Researched answer:
-
+  Researched answer: ORM is a way to map data from a database to an OOP language. Instead of writing SQL queries directly and accessing the database, we can use a programming language to query the data. This results in less code to maintain.
 
 
 4. What is a gem?
 
   Your answer: A gem is a package library made for Ruby on Rails.
 
-  Researched answer:
-
+  Researched answer: A gem is a software package or extension that consists of reusable
+  pieces of code. Gems can be used in multiple Ruby on Rails applications.
 
 
 5. What are primary keys? Why are they important?
@@ -52,7 +49,9 @@ Then, research the question to expand on your answer. Even if you feel you have 
   when a relation between two tables are made so that the primary key is becomes a
   foreign key in the other table.
 
-  Researched answer:
+  Researched answer: The primary key is a unique ID for a record in a table. There could
+  be duplicate values for attributes which are the columns but the primary key is unique.
+  When two tables share a relation, then the primary key is referenced as a foreign key.
 
 
 
